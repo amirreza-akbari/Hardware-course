@@ -10,20 +10,20 @@ This project implements a simple circuit using an Arduino board and 4 LEDs with 
   Author: Amirrezaakbari
 */
 
-int ledPins[] = {2, 3, 4, 5}; 
+const int ledPins[] = {10, 11, 12, 13};
+const int numLeds = 4;
+const int delayTime = 1000; 
 
 void setup() {
-
-  for (int i = 0; i < 4; i++) {
-pinMode(ledPins[i], OUTPUT);
+  for (int i = 0; i < numLeds; i++) {
+    pinMode(ledPins[i], OUTPUT);
   }
 }
 
 void loop() {
-
-  for (int i = 0; i < 4; i++) {
-  digitalWrite(ledPins[i], HIGH); 
-  delay(1000);                    
-  digitalWrite(ledPins[i], LOW); 
+  for (int i = 0; i < numLeds; i++) {
+    digitalWrite(ledPins[i], HIGH);
+    delay(delayTime);
+    digitalWrite(ledPins[i], LOW);
   }
 }
