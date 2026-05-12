@@ -7,7 +7,6 @@ This project implements a simple circuit using an Arduino board and 4 LEDs with 
 /*
   Project Name: Arduino LED Blinking Circuit
   Description: Turn 4 LEDs on and off in sequence with a 1-second delay between each step.
-  Date: 2026-05-12
   Author: Amirrezaakbari
 */
 
