@@ -2,22 +2,6 @@
 
 This project implements a simple circuit using an Arduino board and 4 LEDs with different colors. The goal is to turn the LEDs on and off in sequence with a fixed delay.
 
-## Required Components
-
-- Arduino board (UNO)
-- 4 LEDs (different colors)
-- 4 × 220 ohm resistors
-- Jumper wires
-- Breadboard
-
-## Circuit Diagram
-
-![Arduino LED Blinking Schematic](schematic.png)  
-*(Please place the circuit schematic image in the same folder as this README file and name it `schematic.png`.)*
-
-**Schematic Description:**  
-The longer leg (anode) of each LED is connected to one of the Arduino digital pins (2, 3, 4, 5). The shorter leg (cathode) of each LED is connected to the Arduino GND pin through a 220 ohm resistor.
-
 ## Arduino Code
 ```cpp
 /*
