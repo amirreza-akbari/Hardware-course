@@ -24,7 +24,7 @@ The longer leg (anode) of each LED is connected to one of the Arduino digital pi
   Project Name: Arduino LED Blinking Circuit
   Description: Turn 4 LEDs on and off in sequence with a 1-second delay between each step.
   Date: 2026-05-12
-  Author: GapGPT
+  Author: Amirrezaakbari
 */
 
 int ledPins[] = {2, 3, 4, 5}; // Arduino pins connected to the LEDs
