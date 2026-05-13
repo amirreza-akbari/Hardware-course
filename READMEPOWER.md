@@ -1,3 +1,4 @@
+---cpp
 //Author: Amirrezaakbari
 
 const int buttonPin = 2; 
