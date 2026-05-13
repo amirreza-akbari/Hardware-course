@@ -2,7 +2,6 @@
 ```cpp
 //Author: Amirrezaakbari
 
-// Author: Amirrezaakbari
 
 const int buttonPin = 2;
 const int ledPin = 13;
